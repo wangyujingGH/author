@@ -17,7 +17,7 @@ public class AuthorDaoImpl implements AuthorDao {
 
     @Autowired
     private AuthorMapper mapper;
-
+	/**/
 	public AuthorModel getInfo(String bookname) {
 		// TODO Auto-generated method stub
 		return mapper.findAuthorInfo(bookname);
